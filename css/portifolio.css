@@ -1481,13 +1481,13 @@ ul > li > a:hover {
     }
     
 .corpo-do-meio-img-01{
-    height: 50px;
+    height: 40px;
     padding-top: 10px;
     transition: 0.5s;
 }
 
 .corpo-do-meio-img-02{
-    height: 50px;
+    height: 40px;
     padding-top: 10px;
     transition: 0.5s;
 } 
@@ -1495,25 +1495,24 @@ ul > li > a:hover {
 .corpo-do-meio-img-03{
     margin-top: 0px;
     padding: 15px; 
-    height: 38px;
+    height: 30px;
     transition: 0.5s;   
 } 
 
 .corpo-do-meio-img-04{
     padding: 15px; 
-    height: 38px;
+    height: 30px;
     transition: 0.5s; 
 } 
 
 .corpo-do-meio-img-05{
     padding: 15px; 
-    height: 38px;
+    height: 30px;
     transition: 0.5s;
 } 
 
 .corpo-do-meio-img-06{
-    padding: 15px; 
-    height: 38px;
+    height: 30px;
     transition: 0.5s;
 } 
 
@@ -1531,7 +1530,7 @@ ul > li > a:hover {
     }
 
     .corpo-do-meio-img-3{
-        width: 100px;
+        width: 80px;
         height: 100px;
         display: flex;
         padding: 10px;
