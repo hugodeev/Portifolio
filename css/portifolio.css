@@ -1396,6 +1396,9 @@ ul > li > a:hover {
     
     li{
         padding: 10px;
+        padding-left: 12px;
+        list-style: none;
+        
     }
     
     ul > li > a {
@@ -1652,7 +1655,7 @@ ul > li > a:hover {
         text-align: justify;
         margin-top: 0px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 14.7px;
+        font-size: 16px;
         padding: 10px;
         border-radius: 10px;
     }
