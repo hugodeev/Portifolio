@@ -1436,7 +1436,7 @@ ul > li > a:hover {
         margin-top: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 17px;
-        display: block;
+        display: flex;
     }
     
     .corpo-do-meio-parágrafo{
