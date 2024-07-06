@@ -1391,7 +1391,7 @@ ul > li > a:hover {
 
     ul{
         margin-top: 9px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     li{
@@ -1524,12 +1524,16 @@ ul > li > a:hover {
 }
 
     .corpo-do-meio-img-2{
-        width: 350px;
-        height: 280px;
-        margin-top: 30px;
-        margin-left: 40px;
+        width: 320px;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: 55px;
         border-radius: 10px;
         transition: 0.5s;
+    }
+
+    .corpo-do-meio-img-2:hover{
+        transform: scale(0.9);
     }
 
     .corpo-do-meio-img-3{
@@ -1537,7 +1541,7 @@ ul > li > a:hover {
         height: 100px;
         display: flex;
         padding: 10px;
-        margin-left: 10px; 
+        margin-left: 20px; 
     }
 
     .corpo-do-meio-projetos-sub-img-01-parte2{
@@ -1561,11 +1565,11 @@ ul > li > a:hover {
     .corpo-do-meio-projetos-sub-sub-img-01{
         background-color: #181f30eb;    
         width: 260px;
-        height: 450px;
+        height: 443px;
         border-radius: 10px;
         transition: 0.5s;
         padding: 5px; 
-        margin-left: 65px;
+        margin-left: 60px;
     }
     
     .corpo-do-meio-projetos-sub-sub-img-01:hover{
@@ -1575,7 +1579,7 @@ ul > li > a:hover {
     .corpo-do-meio-projetos-sub-sub-img-02{
         background-color: #181f30eb;    
         width: 260px;
-        height: 450px;;
+        height: 443px;;
         border-radius: 10px;
         transition: 0.5s;
         padding: 5px;
@@ -1590,11 +1594,11 @@ ul > li > a:hover {
     .corpo-do-meio-projetos-sub-sub-img-03{
         background-color: #181f30eb;    
         width: 260px;
-        height: 450px;
+        height: 443px;
         border-radius: 10px;   
         padding: 5px;
         transition: 0.5s; 
-        margin-left: 65px;
+        margin-left: 60px;
     }
     
     .corpo-do-meio-projetos-sub-sub-img-03:hover{
@@ -1604,7 +1608,7 @@ ul > li > a:hover {
     .corpo-do-meio-projetos-sub-sub-img-04{
         background-color: #181f30eb;     
         width: 260px;
-        height: 450px;
+        height: 443px;
         border-radius: 10px;
         transition: 0.5s; 
         padding: 5px; 
@@ -1619,11 +1623,11 @@ ul > li > a:hover {
     .corpo-do-meio-projetos-sub-sub-img-05{
         background-color: #181f30eb;   
         width: 260px;
-        height: 450px;
+        height: 443px;
         border-radius: 10px;
         transition: 0.5s;
         padding: 5px; 
-        margin-left: 65px;
+        margin-left: 60px;
     }
     
     .corpo-do-meio-projetos-sub-sub-img-05:hover{
@@ -1633,7 +1637,7 @@ ul > li > a:hover {
     .corpo-do-meio-projetos-sub-sub-img-06{
         background-color: #181f30eb; 
         width: 260px;
-        height: 450px;
+        height: 443px;
         border-radius: 10px;
         transition: 0.5s;
         padding: 5px;
@@ -1665,7 +1669,7 @@ ul > li > a:hover {
         height: 27px;
         font-size: 18px;
         margin-left: 85px;
-        margin-top: 3 px;
+        margin-top: 3px;
         border-radius: 20px;
         cursor: pointer;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
