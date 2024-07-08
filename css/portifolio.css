@@ -669,6 +669,7 @@ ul > li > a:hover {
     
     li{
         font-size: 1px;
+        list-style: none;
     }
 
     .corpo-do-meio-projetos-sub-sub-img-01{
@@ -1400,9 +1401,7 @@ ul > li > a:hover {
     
     li{
         padding: 10px;
-        padding-left: 12px;
-        list-style: none;
-        
+        padding-left: 12px;     
     }
     
     ul > li > a {
@@ -1433,7 +1432,7 @@ ul > li > a:hover {
 
     .corpo-do-meio-sub-titulo{
         margin-left: 18px;
-        margin-top: 25px;
+        margin-top: 35px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 17px;
         display: flex;
@@ -1469,21 +1468,21 @@ ul > li > a:hover {
         margin-left: 17px;
         margin-top: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 17px;
+        font-size: 20.5px;
     }
 
     .corpo-do-meio-sub-titulo-2{
         margin-left: 17px;
         margin-top: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 17px;
+        font-size: 20.5px;
     }
     
     .corpo-do-meio-sub-titulo-3{
         margin-left: 17px;
         margin-top: 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 17px;
+        font-size: 20.5px;
     }
 
     .corpo-do-meio-titulo-2{
@@ -1688,8 +1687,43 @@ ul > li > a:hover {
         background-color: rgb(233, 233, 233);
         color: rgb(0, 0, 0);
     }    
-    
+  
+    /* Certeficado */
 
+    .certificado{
+       background-color: #001a67;
+       width: 380px;
+       height: 150px;
+       margin: auto;
+       border-radius: 15px 1px 25px 15px;
+       margin-top: 40px;
+       display: flex
+    }
+
+    .img-certificado{
+        width: 115px;
+        height: 125px;
+        border-radius: 25px;
+        padding: 12px;
+        padding-left: 8px;
+    }
+
+    .certificado-paragrafo-main{
+        margin-top: 15px;
+        margin-right: 15px ;
+        font-size: 9px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .certificado-paragrafo{
+        text-align: center;
+        padding: 30px;
+        padding-top: 20px;
+        font-size: 12px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
 
 
