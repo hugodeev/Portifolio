@@ -1711,14 +1711,14 @@ ul > li > a:hover {
     .certificado-paragrafo-main{
         margin-top: 13px;
         margin-right: 15px ;
-        font-size: 7.5px;
+        font-size: 9px;
         text-align: justify;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .certificado-paragrafo{
         text-align: center;
-        padding: 20px;
+        padding: 23px;
         padding-top: 20px;
         font-size: 12px;
         text-align: justify;
