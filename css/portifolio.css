@@ -1692,8 +1692,8 @@ ul > li > a:hover {
 
     .certificado{
        background-color: #001a67;
-       width: 380px;
-       height: 150px;
+       width: 340px;
+       height: 130px;
        margin: auto;
        border-radius: 15px 1px 25px 15px;
        margin-top: 40px;
@@ -1702,23 +1702,23 @@ ul > li > a:hover {
 
     .img-certificado{
         width: 115px;
-        height: 125px;
+        height: 108px;
         border-radius: 25px;
         padding: 12px;
         padding-left: 8px;
     }
 
     .certificado-paragrafo-main{
-        margin-top: 15px;
+        margin-top: 13px;
         margin-right: 15px ;
-        font-size: 9px;
+        font-size: 7.5px;
         text-align: justify;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .certificado-paragrafo{
         text-align: center;
-        padding: 30px;
+        padding: 20px;
         padding-top: 20px;
         font-size: 12px;
         text-align: justify;
