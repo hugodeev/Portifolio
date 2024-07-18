@@ -1696,7 +1696,7 @@ ul > li > a:hover {
        height: 130px;
        margin: auto;
        border-radius: 15px 1px 25px 15px;
-       margin-top: 40px;
+       margin-top: 60px;
        display: flex
     }
 
@@ -1711,7 +1711,7 @@ ul > li > a:hover {
     .certificado-paragrafo-main{
         margin-top: 13px;
         margin-right: 15px ;
-        font-size: 8.5px;
+        font-size: 8.2px;
         text-align: justify;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -1737,6 +1737,49 @@ ul > li > a:hover {
     .but-certificado:hover{
        background-color: #040450;
     }
+
+    /*fundo do site*/
+
+    .fundo-do-site{
+       margin-top: 60px;
+       background-color: #001A67;
+       width: 100%;
+       height: 200px;  
+       margin-top: 115px;       
+    }
+
+    .fundo-barramento{
+        background-color: rgb(11, 1, 45);
+        width: 100%;
+        height: 15px;
+        font-size: 0px;
+    }
+
+    .fundo-display-flex{
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: 10px;
+       font-size: 12px;
+    }
+
+    .fundo-titulo{
+        font-size: 24px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .fundo-paragrafo{
+        font-size: 10px;
+        margin-right: 170px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+     
+    .hr001{
+        display: block ;
+        margin-top: 15px;
+    }
+    
 }
 
 
