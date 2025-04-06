@@ -157,17 +157,35 @@
     }
 
     .perfil-container {
-        margin-left: 40px;
+        margin-left: 10px;
     }
-    
+
     .conteudo-img-perfil {
-        width: 310px;
-        height: 310px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+
+    .perfil-container::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        background: linear-gradient(45deg,  #1E90FF, #000000);
+        background-size: 300% 300%;
+        animation: girarBorda 4s linear infinite;
+        z-index: -1;
     }
 
     .borda-animada {
-        width: 325px;
-        height: 325px;
+        width: 215px;
+        height: 215px;
     }
 
     .foguete {

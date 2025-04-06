@@ -238,7 +238,7 @@ hr{
     background: linear-gradient(45deg, #1E90FF, #000000);
     background-size: 300% 300%;
     animation: girarBorda 4s linear infinite;
-    z-index: -1; /* Alterado de -1 para 0 */
+    z-index: -1;
 }
 
 @keyframes girarBorda {
