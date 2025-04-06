@@ -1,0 +1,585 @@
+
+/* Configuração Geral do Site */
+
+.responsividade-do-site{
+    width: 1240px;
+    margin: auto;
+    padding-left: 15px;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(190, 190, 191);
+    background-color: #06081300,;
+    background-image: linear-gradient(to right, #060813, #0a0918);
+}
+
+html{
+    scroll-behavior: smooth ; 
+    scroll-padding-top: 90px; 
+}
+
+hr{
+    margin-top: 5px;
+}
+
+/* Header - Estilização Cabeçalho Barramento */
+
+.cabeçalho-barramneto{
+    background-color: #041057;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 1000;
+}
+
+.cabeçalho-barramneto-titulo{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+.cabeçalho-barramneto-icon-github{
+   margin-left: auto;
+   margin-right: 20px;
+   margin-top: 17px;
+   display: flex;
+}
+
+/* Lado Lateral - Estilização Barra Lateral de Menu*/
+
+.area-menu-lateral{
+    display: flex;
+}
+
+.menu-lateral{
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    cursor: pointer;
+    background-color: #00000f;
+}
+
+.foto-de-perfil-menu-lateral{
+    width: 120px;
+    height: 120px;
+    margin-top: 25px ;
+    margin-left: 42px;
+    border-radius: 50%;
+}
+
+.titulo-do-perfil-menu-lateral{
+    font-size: 19px;
+    margin-top: 6px;
+    margin-left: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corpo-direito-redes-sociais{
+    margin-left: 51px ;
+    margin-top: 8px;
+    display: flex;
+}
+
+.icon-redes-sociais{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.lateral-direita{
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+.lateral-direita.hidden {
+    transform: translateX(-100%);
+}
+
+.toggle-btn {
+    position: fixed;
+    left: 215px;
+    top: 53%;
+    transform: translateY(-50%);
+    background-color: #17044d;
+    color: rgb(228, 222, 222);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 1px;
+    border-radius: 5px;
+    transition: left 0.3s ease;
+    width: 30px;
+    height: 60px;
+}
+
+.lateral-direita.hidden + .toggle-btn {
+    left: 10px;
+}
+
+/* Lado Lateral - Estilização Área Menu - Navegação do site */
+
+.menu-navegaçao-do-site{
+    margin-top: 8px;
+}
+
+.itens-navegaçao-do-site{
+    padding: 35px;
+}
+
+.menu-navegaçao-do-site > .itens-navegaçao-do-site > .links-para-navegaçao-do-site {
+    text-decoration: none;
+    Color: rgb(205, 208, 211);
+    font-size: 19px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+}
+
+.menu-navegaçao-do-site > .itens-navegaçao-do-site > .links-para-navegaçao-do-site:hover {
+  color: #001a67;
+  transform: scale(0.9);
+}
+
+/* Conteúdo do Site - Estilização */
+
+/* Area dos Conteúdos - Minha Apresentação de Perfil */
+
+.conteudo-titulo{
+    font-size: 25px;
+    padding-top: 60px ;
+    font-weight: 900;
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+.conteudo-sub-titulo{
+    margin-top: 80px;
+    color: rgb(230, 225, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.conteudo-paragrafo{
+    margin-top: 50px;
+    font-weight: 400;
+    color: rgb(160, 159, 159);
+    margin-right: 30px;
+    font-family:  sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.area-img-perfil-e-paragrafo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    padding-top: 130px;
+    position: relative;
+}
+
+.perfil-container {
+    position: relative;
+    display: inline-block;
+}
+
+.perfil-container::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    background: linear-gradient(45deg,  #1E90FF, #000000);
+    background-size: 300% 300%;
+    animation: girarBorda 4s linear infinite;
+    z-index: -1;
+}
+
+.conteudo-img-perfil {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    transition: transform 0.5s;
+    border: 2px solid white;
+}
+
+.conteudo-img-perfil:hover {
+    transform: scale(1.1);
+}
+
+.borda-animada {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg, #1E90FF, #000000);
+    background-size: 300% 300%;
+    animation: girarBorda 4s linear infinite;
+    z-index: -1; /* Alterado de -1 para 0 */
+}
+
+@keyframes girarBorda {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.conteudo-titulo-perfil {
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(230, 225, 225);
+    transition: color 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo-paragrafo-perfil {
+    font-size: 20px;
+    color: rgb(163, 160, 160);
+    text-align: justify;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Animação de Entrada do Conteúdo */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.typing::after {
+    content: '|';
+    display: inline-block;
+    animation: blink 0.7s infinite;
+    color: white;
+}
+
+/* Animação de Onda dos Cards com Tecnologia */
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+@keyframes onda {
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-15px); } /* Sobe */
+    100% { transform: translateY(0); } /* Volta ao normal */
+}
+
+.conteudo-tecnologia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.caixa-tecnologia {
+    background-color: #363642;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+    animation: onda 2s ease-in-out infinite;
+    margin-top: 20px;
+}
+
+/* Criando o Efeito de Onda com Atrasos */
+.caixa-tecnologia:nth-child(1) { animation-delay: 0s; }
+.caixa-tecnologia:nth-child(2) { animation-delay: 0.2s; }
+.caixa-tecnologia:nth-child(3) { animation-delay: 0.4s; }
+.caixa-tecnologia:nth-child(4) { animation-delay: 0.6s; }
+.caixa-tecnologia:nth-child(5) { animation-delay: 0.8s; }
+.caixa-tecnologia:nth-child(6) { animation-delay: 1s; }
+.caixa-tecnologia:nth-child(7) { animation-delay: 1.2s; }
+
+
+/* Animação do Fogute - Lua*/
+
+.foguete {
+    position: absolute;
+    top: 15%;
+    left: 1100px;
+    transform: translateX(-50%) rotate(90deg);
+    font-size: 2rem;
+    animation: cairNaLua 10s ease-in-out forwards, irParaImagemPerfil 5s 10s ease-in-out forwards, forwards; 
+    z-index: -1; 
+}
+
+.lua {
+    position: absolute;
+    bottom: 0%;
+    left: 1089px;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 70px;
+}
+
+@keyframes cairNaLua {
+    0% {
+        top: 15%;
+        transform: translateX(-50%) rotate(137deg);
+    }
+
+    100% {
+        top: 78%;
+        transform: translateX(-50%) scale(1) rotate(316deg);
+    }
+}
+
+@keyframes irParaImagemPerfil {
+    0% {
+        top: 80%;
+        left: 1100px; 
+        transform: translateX(-50%) scale(1) rotate(-48deg);
+    }
+    100% {
+        top: 20%; 
+        left: 95%; 
+        transform: translateX(-200%) scale(2) rotate(0deg);
+    }
+}
+
+.conteudo-titulo-perfil {
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(230, 225, 225);
+    transition: color 0.3s;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo-paragrafo-perfil {
+    font-size: 20px;
+    color: rgb(163, 160, 160);
+    text-align: justify;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Área dos Conteúdo - Experiência - Formação Academica*/
+
+.area-de-experiencia{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.conteudo-experiencia{
+    display: flex;
+    color: rgb(224, 224, 224);
+    margin-top: 10px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.logo-empresa{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.experiencia-area-de-texto{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.formação-area-de-texto{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 110px;
+}
+
+.experiencia-titulo{
+    font-size: 19px;
+}
+
+.experiencia-paragrafo{
+    margin-top: 12px;
+    font-size: 17,5px;
+    color: rgb(179, 177, 177);
+}
+
+.periodo-de-experiencia{
+    margin-top: 19px;
+    font-size: 12px;
+    color: rgb(131, 130, 130);
+}
+
+.logo-exportação{
+    width: 20px;
+    filter: opacity(90%);
+    padding-top: 15px;
+}
+
+/* Area dos Conteúdos - Habilidades */
+
+.conteudo-sub-titulo-habilidade{
+    margin-top: 40px;
+    color: rgb(185, 180, 180);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#graficoHabilidades{
+    width: 900px; 
+    height: 400px;
+    margin: auto;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+/* Projetos */
+
+.area-projetos-todos-os-conteiner{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 80px;
+   margin-top: 40px;
+   margin-left: 60px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteiner-projetos-img{
+    width: 300px;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.conteiner-projeto{
+    background-color: #1816369f;    
+    width: 300px;
+    height: 463px;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.conteiner-projeto:hover{
+    transform: scale(1.1);
+}
+
+.projeto-conteiner-titulo{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 900;
+    color: #c3c2c7;
+}
+
+.conteiner-projetos-paragrafo{
+    text-align: justify;
+    font-size: 12px;
+    padding: 8px;
+    color: rgb(177, 171, 171);
+}
+
+.projeto-conteiner-area-tecnologia{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+.projeto-conteiner-caixa-de-cada-tecnologia{
+    background-color: rgba(11, 11, 22, 0.705);
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.projeto-conteiner-caixa-de-cada-tecnologia-area-exportação{
+    background-color: rgb(230, 230, 230);
+    color: #111111;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    width: 50px;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.projeto-conteiner-logo{
+    width: 15px;
+    border-radius: 50%;
+}
+
+/* Configuração em andamento... */
+/* Contato */
+
+.area-contato{
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.sub-titulo-contato{
+    color: #c3c2c7;
+    font-size: 40px;
+    margin-top: 170px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragrafo-contato{
+    width: 600px;
+    color: #c3c2c7;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario-contato{
+    background-color: #1816369f;    
+    width: 350px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: 120px;
+    border-radius: 15px; 
+    margin-top: 100px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.inputs-contato{
+    width: 325px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+
+

@@ -1,0 +1,321 @@
+/* Outras telas */
+
+@media screen and (max-width: 1000px ){
+
+    .responsividade-do-site{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .conteudo-titulo{
+        font-size: 27px;
+        padding-top: 60px ;
+        margin-left: 28px;
+    }
+
+    .conteudo-paragrafo{
+        margin-top: 50px;
+        font-weight: 400;
+        color: rgb(160, 159, 159);
+        margin-right: 30px;
+        font-family:  sans-serif;
+        font-size: 18px;
+        margin-left: 28px;
+    }
+
+    .area-img-perfil-e-paragrafo {
+        display: block;
+        margin-left: 16px;
+    }
+
+    .perfil-container {
+        margin-left: 40px;
+    }
+    
+    .conteudo-img-perfil {
+        width: 310px;
+        height: 310px;
+    }
+
+    .borda-animada {
+        width: 325px;
+        height: 325px;
+    }
+
+    .foguete {
+        top: 15%;
+        left: 613px;
+        font-size: 30px;
+    }
+    
+    .lua {
+        bottom: 46%;
+        left: 600px;
+        font-size: 70px;
+    }
+    
+    @keyframes cairNaLua {
+
+        0% {
+            top: 15%;
+            transform: translateX(-50%) rotate(137deg);
+        }
+    
+        100% {
+            top: 42%;
+            transform: translateX(-50%) scale(1) rotate(316deg);
+        }
+    }
+    
+    @keyframes irParaImagemPerfil {
+
+        0% {
+            top: 42%;
+            left: 613px; 
+            transform: translateX(-50%) scale(1) rotate(-48deg);
+        }
+        100% {
+            top: 20%; 
+            left: 90%; 
+            transform: translateX(-200%) scale(2) rotate(0deg);
+        }
+    }
+
+    .conteudo-titulo-perfil {
+        font-size: 34px;
+        font-weight: 600;
+        color: rgb(230, 225, 225);
+        transition: color 0.3s;
+        margin-top: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .area-de-experiencia{      
+        display: block;
+    }
+
+    .conteudo-experiencia{
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+
+    .conteudo-sub-titulo-habilidade{
+        margin-left: 28px;
+    }
+    
+    #graficoHabilidades{
+        margin: auto;
+        padding-top: 100px;
+        margin-right: 30px;
+        margin-left: 70px;
+    }
+
+    .area-projetos-todos-os-conteiner{
+        justify-content: center;
+        margin: 0;
+        margin-top: 80px;
+        gap: 80px;
+     }
+
+    .area-contato{
+        display: block;
+        padding-bottom: 60px;
+    }
+
+    .formulario-contato{
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 500px ){
+
+    .responsividade-do-site{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .conteudo-titulo{
+        font-size: 22px;
+        padding-top: 40px ;
+        margin-left: 20px;
+    }
+
+    .conteudo-paragrafo{
+        margin-top: 30px;
+        font-weight: 400;
+        color: rgb(160, 159, 159);
+        margin-right: 30px;
+        font-family:  sans-serif;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .area-img-perfil-e-paragrafo {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .perfil-container {
+        margin-left: 40px;
+    }
+    
+    .conteudo-img-perfil {
+        width: 310px;
+        height: 310px;
+    }
+
+    .borda-animada {
+        width: 325px;
+        height: 325px;
+    }
+
+    .foguete {
+        top: 35%;
+        left: 303px;
+        font-size: 30px;
+    }
+    
+    .lua {
+        bottom: 36%;
+        left: 320px;
+        font-size: 40px;
+    }
+    
+    @keyframes cairNaLua {
+
+        0% {
+            top: 15%;
+            transform: translateX(-50%) rotate(137deg);
+        }
+    
+        100% {
+            top: 42%;
+            transform: translateX(-50%) scale(1) rotate(316deg);
+        }
+    }
+    
+    @keyframes irParaImagemPerfil {
+
+        0% {
+            top: 42%;
+            left: 300px; 
+            transform: translateX(-50%) scale(1) rotate(-48deg);
+        }
+        100% {
+            top: 20%; 
+            left: 80%; 
+            transform: translateX(-200%) scale(2) rotate(0deg);
+        }
+    }
+
+    .conteudo-titulo-perfil {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+
+    .conteudo-paragrafo-perfil {
+        font-size: 16px;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .caixa-tecnologia {
+        font-size: 12px;
+    }
+
+    .area-de-experiencia{
+        display: block;
+        margin-left: 0px;
+    }
+
+    .conteudo-experiencia{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .logo-empresa{
+        width:70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    
+    .experiencia-area-de-texto{
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .formação-area-de-texto{
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    
+    .experiencia-titulo{
+        font-size: 16px;
+    }
+    
+    .experiencia-paragrafo{
+        margin-top: 12px;
+        font-size: 13px;
+    }
+    
+    .periodo-de-experiencia{
+        margin-top: 19px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    
+    .logo-exportação{
+        width: 18px;
+        padding-top: 21px;
+    }
+
+    .conteudo-sub-titulo-habilidade{
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    
+    #graficoHabilidades{
+        width: 300px; 
+        height: 300px;
+        margin: auto;
+        padding-top: 70px;
+        margin-right: 30px;
+        margin-left: 60px;
+    }
+
+    .area-contato{
+        display: block;
+        padding-bottom: 60px;
+    }
+
+    .sub-titulo-contato{
+        font-size: 27px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    
+    .paragrafo-contato{
+        width: auto;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .formulario-contato{
+        margin: auto;
+        margin-top: 60px;
+        width: 330px;
+        height: 480px;
+    }
+
+    .inputs-contato{
+        width: 308px;
+        height: 25px;
+        margin-left: 10px;
+    }
+    
+
+}
