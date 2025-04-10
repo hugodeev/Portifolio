@@ -27,17 +27,20 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias fundamentais d
 
 Essas tecnologias juntas proporcionam uma base sólida para o desenvolvimento front-end, com foco em performance, usabilidade e design responsivo.
 
-📸 Preview
-(Aqui você pode adicionar um print do portfólio ou um gif de demonstração)
-Exemplo:
+📌 Clone este projeto
+Para clonar e executar este projeto localmente, siga os passos abaixo:
 
-# 🔗 Links:
+- Git Clone https://github.com/hugodeev/Portifolio.git
 
-- [🔗  Acesse o portfólio online]( )
+Depois disso, basta abrir a pasta do projeto no seu editor de código favorito e rodar com o gerenciador de pacotes ou servidor local da sua preferência.
+
+## 🔗 Links:
+
+- [🔗  Acesse o portfólio online](hugodeev.github.io/Portifolio/)
 
 - [🔗 💼 Meu LinkedIn](https://www.linkedin.com/in/hugomathais/)
 
-📌 Observações
+### 📌 Observações
 Este portfólio é um projeto em constante evolução. Pretendo atualizá-lo regularmente com novos projetos, melhorias visuais e ajustes de performance.
 Deixe sugestões para o projeto!!
 
