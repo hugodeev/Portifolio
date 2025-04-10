@@ -27,7 +27,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias fundamentais d
 
 Essas tecnologias juntas proporcionam uma base sólida para o desenvolvimento front-end, com foco em performance, usabilidade e design responsivo.
 
-📌 Clone este projeto
+### 📌 Clone este projeto
 Para clonar e executar este projeto localmente, siga os passos abaixo:
 
 - Git Clone https://github.com/hugodeev/Portifolio.git
