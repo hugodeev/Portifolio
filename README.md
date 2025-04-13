@@ -36,7 +36,7 @@ Depois disso, basta abrir a pasta do projeto no seu editor de código favorito e
 
 ## 🔗 Links:
 
-- [🔗  Acesse o portfólio online](hugodeev.github.io/Portifolio/)
+- [🔗  Acesse o portfólio online](https://hugodeev.github.io/Portifolio/)
 
 - [🔗  Meu LinkedIn](https://www.linkedin.com/in/hugomathais/)
 
