@@ -201,13 +201,13 @@
 
     .foguete {
         top: 35%;
-        left: 303px;
+        left: 306px;
         font-size: 30px;
     }
     
     .lua {
         bottom: 50%;
-        left: 310px;
+        left: 320px;
         font-size: 40px;
     }
     
@@ -219,7 +219,7 @@
         }
     
         100% {
-            top: 41%;
+            top: 40%;
             transform: translateX(-50%) scale(1) rotate(316deg);
         }
     }
@@ -233,7 +233,7 @@
         }
         100% {
             top: 20%; 
-            left: 100%; 
+            left: 92%; 
             transform: translateX(-200%) scale(1) rotate(0deg);
         }
     }
@@ -322,7 +322,6 @@
         width: 285px;
         height: 445px;
     }
-    
 
     .area-contato{
         display: block;
