@@ -201,7 +201,7 @@
 
     .foguete {
         top: 35%;
-        left: 306px;
+        left: 308px;
         font-size: 30px;
     }
     
@@ -219,7 +219,7 @@
         }
     
         100% {
-            top: 40%;
+            top: 41%;
             transform: translateX(-50%) scale(1) rotate(316deg);
         }
     }
@@ -227,7 +227,7 @@
     @keyframes irParaImagemPerfil {
 
         0% {
-            top: 42%;
+            top: 41%;
             left: 300px; 
             transform: translateX(-50%) scale(1) rotate(-48deg);
         }
