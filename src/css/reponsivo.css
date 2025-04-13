@@ -130,6 +130,16 @@
 
 @media screen and (max-width: 500px ){
 
+    .cabeçalho-barramneto{
+        height: 60px;
+    }
+
+    .cabeçalho-barramneto-titulo{
+        font-size: 25px;
+        margin-top: 13px;
+        margin-left: 14px;
+    }
+
     .responsividade-do-site{
         width: 100%;
         padding-left: 0px;
@@ -154,6 +164,7 @@
     .area-img-perfil-e-paragrafo {
         display: block;
         margin-left: 0px;
+        margin-top: 30px;
     }
 
     .perfil-container {
@@ -195,8 +206,8 @@
     }
     
     .lua {
-        bottom: 36%;
-        left: 320px;
+        bottom: 50%;
+        left: 310px;
         font-size: 40px;
     }
     
@@ -208,7 +219,7 @@
         }
     
         100% {
-            top: 42%;
+            top: 41%;
             transform: translateX(-50%) scale(1) rotate(316deg);
         }
     }
@@ -222,8 +233,8 @@
         }
         100% {
             top: 20%; 
-            left: 80%; 
-            transform: translateX(-200%) scale(2) rotate(0deg);
+            left: 100%; 
+            transform: translateX(-200%) scale(1) rotate(0deg);
         }
     }
 
@@ -303,6 +314,16 @@
         margin-left: 60px;
     }
 
+    .conteiner-projetos-img{
+        width: 290px;
+    }
+    
+    .conteiner-projeto{
+        width: 285px;
+        height: 445px;
+    }
+    
+
     .area-contato{
         display: block;
         padding-bottom: 60px;
@@ -325,12 +346,12 @@
     .formulario-contato{
         margin: auto;
         margin-top: 60px;
-        width: 330px;
+        width: 300px;
         height: 480px;
     }
 
     .inputs-contato{
-        width: 308px;
+        width: 275px;
         height: 25px;
         margin-left: 10px;
     }
